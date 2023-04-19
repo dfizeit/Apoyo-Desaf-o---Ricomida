@@ -46,6 +46,7 @@ body {
   width: 85%;
 }
 
+
 #p-titular {
   font-family: "Cabin";
   font-weight: bold;
@@ -108,8 +109,5 @@ li{
     padding-bottom: 10px;
 }
 
-#ingredientes-preparacion{
-    text-align: left;
 
-}
 
