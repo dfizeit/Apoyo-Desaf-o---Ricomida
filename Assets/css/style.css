@@ -1,0 +1,115 @@
+body {
+  padding: 0;
+}
+
+#navbarNav {
+  flex-direction: row-reverse;
+}
+
+#navbar-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#logo-ricomida {
+  color: #ffffff;
+  font-family: "Lobster", cursive;
+  font-size: 25pt;
+}
+
+#contenedor-principal {
+  text-align: center;
+  align-items: center;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#contenedor-derecha {
+  text-align: center;
+}
+
+/* separador vista mobile */
+#separador {
+  height: 2px;
+  background-color: #000000;
+  border: none;
+}
+
+#separador-2 {
+    height: 2px;
+    background-color: #000000;
+    border: none;
+    margin-top: 2rem;
+  }
+
+#img-principal {
+  width: 85%;
+}
+
+#p-titular {
+  font-family: "Cabin";
+  font-weight: bold;
+  font-size: 30pt;
+}
+
+#p-tiempo {
+  font-size: 15pt;
+  font-family: "Cabin";
+  font-weight: bold;
+}
+
+#boton-correo #boton-favoritos {
+  background-color: white;
+  color: #ffffff;
+}
+
+
+
+/* carrousel */
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+
+/* ingredientes */
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    font-size: 15pt;
+    font-family: 'Cabin', Regular;
+    list-style: none;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+#ingredientes-preparacion{
+    text-align: left;
+
+}
+
